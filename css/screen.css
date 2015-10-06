@@ -10,11 +10,33 @@ and open the template in the editor.
     Author     : rahul
 */
 
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+}
+
 body .nav a {
     font-size: 30px;
 }
 
 body a {
-    color: #6ED9FF;
+    color: #13fa51;
     text-decoration: none;
+}
+
+main {
+    margin: 15px 15px 15px 15px;
+}
+
+main header {
+    width: 100%;
+}
+
+@media all and (min-width: 1000px) {
+    main {
+        width: 50%;
+        margin: 200px auto auto 10px;
+    }
 }
