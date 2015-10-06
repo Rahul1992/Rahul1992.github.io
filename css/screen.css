@@ -12,5 +12,9 @@ and open the template in the editor.
 
 body .nav a {
     font-size: 30px;
-    font-color: #6ED9FF !important;
+    color: #6ED9FF;
+}
+
+body a {
+    color: #6ED9FF;
 }
