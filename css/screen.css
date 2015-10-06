@@ -10,7 +10,7 @@ and open the template in the editor.
     Author     : rahul
 */
 
-body a {
+body .nav a {
     font-size: 30px;
-    font-color: #6ED9FF;
+    font-color: #6ED9FF !important;
 }
