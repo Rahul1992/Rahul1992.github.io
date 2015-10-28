@@ -13,13 +13,18 @@ and open the template in the editor.
 body {
     margin: 150px;
     padding: 0px;
-    font-family: 'Rockwell', Courier, Georgia, Times, 'Times New Roman', serif;
+    font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
     background-color: #dddddd ;
     color: #000000;
 }
 
 body .nav a {
-    font-size: 30px;
+    font-size: 20px;
     font-family: 'Rockwell Extra Bold', 'Rockwell Bold', monospace;
 }
 
@@ -29,6 +34,7 @@ body a {
 }
 .company{
     color: #000000;
+    font-size: 20px;
     font-family: 'Rockwell Extra Bold', 'Rockwell Bold', monospace;
 }
 main {
