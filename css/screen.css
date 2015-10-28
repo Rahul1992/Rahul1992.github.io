@@ -5,29 +5,35 @@ and open the template in the editor.
 */
 
 
-/* 
+/*
     Created on : Oct 2, 2015, 5:27:34 PM
     Author     : rahul
 */
 
 body {
-    margin: 0px;
+    margin: 150px;
     padding: 0px;
-    background-color: black;
-    color: white;
+    font-family: 'Rockwell', Courier, Georgia, Times, 'Times New Roman', serif;
+    background-color: #dddddd ;
+    color: #000000;
 }
 
 body .nav a {
     font-size: 30px;
+    font-family: 'Rockwell Extra Bold', 'Rockwell Bold', monospace;
 }
 
 body a {
-    color: #13fa51;
-    text-decoration: none;
+    color: #000000;
+    text-decoration: underline;
 }
-
+.company{
+    color: #000000;
+    font-family: 'Rockwell Extra Bold', 'Rockwell Bold', monospace;
+}
 main {
-    margin: 15px 15px 15px 15px;
+
+
 }
 
 main header {
