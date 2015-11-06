@@ -37,16 +37,6 @@ body a {
     font-size: 20px;
     font-family: 'Rockwell Extra Bold', 'Rockwell Bold', monospace;
 }
-.button {
-    font-family: 'Rockwell Bold', monospace;
-    height: 75px;
-    width: 150px;
-    margin: 20px auto;
-    background-color: transparent;
-    text-align: center;
-    font-size: 19px;
-    box-shadow: 5px 5px 10px rgba(100, 100, 100, .8);
-}
 div .img {
     margin: 5px;
     padding: 5px;
@@ -57,7 +47,37 @@ div .img {
     top: 166px;
     border-radius: 106px;
 }
+button {
+  display: inline-block;
 
+  padding: 8px 19px;
+  font-size: 16px;
+  font-family: "Bitter",serif;
+  line-height: 1.8;
+  appearance: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+section.press button {
+  color: #fff;
+  background-color: #6496c8;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 10px #27496d;
+}
+section.press button:hover,
+section.press button.hover {
+  background-color: #417cb8
+}
+section.press button:active,
+section.press button.active {
+  background-color: #417cb8;
+  box-shadow: 0 5px #27496d;
+  transform: translateY(5px);
+}
+button:focus {
+  outline: none
+}
 
 main header {
     width: 100%;
