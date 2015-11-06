@@ -47,6 +47,17 @@ body a {
     font-size: 19px;
     box-shadow: 5px 5px 10px rgba(100, 100, 100, .8);
 }
+div .img {
+    margin: 5px;
+    padding: 5px;
+    float: left;
+    text-align: center;
+    width: 257px;
+    float: right;
+    top: 166px;
+    border-radius: 106px;
+}
+
 
 main header {
     width: 100%;
