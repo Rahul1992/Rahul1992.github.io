@@ -60,19 +60,19 @@ button {
 }
 section.press button {
   color: #fff;
-  background-color: #6496c8;
+  background-color: #000;
   border: none;
   border-radius: 15px;
-  box-shadow: 0 10px #27496d;
+  box-shadow: 0 10px #afafaf;
 }
 section.press button:hover,
 section.press button.hover {
-  background-color: #417cb8
+  background-color: #afafaf
 }
 section.press button:active,
 section.press button.active {
-  background-color: #417cb8;
-  box-shadow: 0 5px #27496d;
+  background-color: #afafaf;
+  box-shadow: 0 5px #afafaf;
   transform: translateY(5px);
 }
 button:focus {
